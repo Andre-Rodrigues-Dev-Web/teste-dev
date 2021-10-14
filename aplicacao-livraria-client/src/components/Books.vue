@@ -24,7 +24,7 @@
                       <td colspan="8"></td>
                       <td colspan="8"></td>
                       <td colspan="8"></td>
-                      <td colspan="8">
+                      <td colspan="6">
                           <a class="bt bt_add" href="http://">Adicionar</a>
                           <button class="bt bt_remove">Remover</button>
                       </td>
@@ -81,12 +81,18 @@
 }
 /*Tabela*/
 table, td, th, tfoot {
-    border:solid 1px #000; 
     padding:5px;
+}
+table, td, th{
+    border: 1px solid rgba(51, 51, 51, 0.098);
+}
+table{
+    width: 100%;
 }
 th {
     background-color:rgb(64, 102, 230);
     color: #fff;
 }
+
 
 </style>
