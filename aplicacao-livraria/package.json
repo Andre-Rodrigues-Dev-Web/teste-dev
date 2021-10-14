@@ -1,0 +1,32 @@
+{
+  "name": "aplicacao-livraria",
+  "version": "1.0.0",
+  "description": "Aplicação para o teste de desenvolvimento em Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Rodrigues-Dev-Web/teste-dev.git"
+  },
+  "keywords": [
+    "Teste",
+    "para",
+    "desenvolvimento",
+    "em",
+    "Vue"
+  ],
+  "author": "André Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-Rodrigues-Dev-Web/teste-dev/issues"
+  },
+  "homepage": "https://github.com/Andre-Rodrigues-Dev-Web/teste-dev#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
+}

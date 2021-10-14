@@ -1,0 +1,2 @@
+##Arquivo que ignora node_modules e alguns arquivos 
+/node_modules
