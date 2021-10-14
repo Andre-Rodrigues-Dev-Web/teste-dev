@@ -28,4 +28,4 @@ const Schema = mongoose.Schema({
     }
 });
 
-const todo = (module.exports = mongoose.model("todo", Schema));
+const livros = (module.exports = mongoose.model("livros", Schema));

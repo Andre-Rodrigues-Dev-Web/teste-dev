@@ -27,3 +27,23 @@ const Model = require("./schema");
 app.get("/", (req, res) => {
   res.send("Página home");
 });
+//add livros
+app.post("/books/add", (req, res) => {
+  let newBook = new Model();
+  newBook.titulo = req.body.livros;
+  newBook.nome = req.body.livros;
+  newBook.autor = req.body.livros;
+  newBook.categoria = req.body.livros;
+  newBook.codigo = req.body.livros;
+  newBook.tipo = req.body.livros;
+  newBook.tamanho = req.body.livros;
+  newBook.save(err => {
+    if (err) {
+      console.log(err);
+      res.send("Erro ao adicionar livro");
+    } else {
+      console.log(newBook);
+      res.send("Livro adicionado");
+    }
+  });
+});
